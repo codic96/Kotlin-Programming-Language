@@ -23,3 +23,11 @@ fun maxOf(a:Int,b:Int)= if(a<b) a else b
 fun main(){
   println("The Number are ${maxOf(12,11}")
 
+
+ #3 /* For Loop*/
+ 
+ var items = ("apple","banana","grapes")
+ for(item in items)
+  {
+    println(item)
+  }  
