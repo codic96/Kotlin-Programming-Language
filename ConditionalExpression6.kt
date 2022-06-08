@@ -42,3 +42,16 @@ fun main(){
     println("The Number are ${item.index}")
     index++
   } 
+
+  #5 When Expression 
+for describe(obj : Any): String = when(obj)
+{
+  1 -> "Hello"
+  2 -> "World"
+  else -> "unknown"
+}
+fun main()
+{
+  println(describe(1))
+  println(describe(2))
+}  
