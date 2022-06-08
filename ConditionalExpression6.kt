@@ -22,6 +22,7 @@ fun main()
 fun maxOf(a:Int,b:Int)= if(a<b) a else b
 fun main(){
   println("The Number are ${maxOf(12,11}")
+}
 
 
  #3 /* For Loop*/
@@ -32,7 +33,7 @@ fun main(){
     println(item)
   }  
 
-  #3 /* while loop */
+  #4 /* while loop */
   
   var item = listOf("apple","banana","grapes")
   val index = 0
