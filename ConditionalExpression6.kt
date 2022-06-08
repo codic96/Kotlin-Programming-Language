@@ -31,3 +31,13 @@ fun main(){
   {
     println(item)
   }  
+
+  #3 /* while loop*/
+  
+  var item = listOf("apple","banana","grapes")
+  val index = 0
+  while(item<index)
+  {
+    println("The Number are ${item.index}")
+    index++
+  } 
