@@ -54,4 +54,30 @@ fun main()
 {
   println(describe(1))
   println(describe(2))
-}  
+} 
+
+#6 For  Range Expression
+
+fun main()
+{
+  val x = 10
+  val y = 11
+  for (x in 1..10)
+  {
+    println(x)
+  }
+}
+
+fun main()
+{
+  val x = 9
+  val y = 8
+  if(x==y)
+  {
+    println("x equal to y")
+  }
+  else
+  {
+    println("x is not equal to y")
+  }
+  
